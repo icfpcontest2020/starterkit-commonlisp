@@ -6,7 +6,8 @@ for current list, and send pull requests to make additions if you
 think anything particularly common was missed). Those are mostly just
 for convenience and to save a bit of build time, and you can include
 your own `quicklisp/` dir in your solution repo and it will be copied
-over the existing one.
+over the existing one, or add directories from your submission to the
+`asdf` search path in `build.sh`
 
 `app/` is added to `ql:*local-project-directories*`, so `.asd` files
 there should be found by ql. By default `build.sh` loads the
