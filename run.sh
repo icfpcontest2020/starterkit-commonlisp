@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/solution/run "$@"
+/solution/run "$@" || echo "run error code: $?"
